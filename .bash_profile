@@ -18,7 +18,7 @@ IN="\[\033[0m\]"
 export PS1="$NM[ $HI\u $HII\h $SI\w$NM ] $IN"
 
 if [ "$TERM" != "dumb" ]; then
-    export LS_OPTIONS='--color=auto'
+    export LS_OPTIONS='--color=always'
 	eval $(gdircolors -b $HOME/.dir_colors)
 fi
 
