@@ -50,7 +50,7 @@ if [ -f /opt/local/etc/profile.d/autojump.sh ]; then
        . /opt/local/etc/profile.d/autojump.sh
 fi
 #git completion include
-if [-f ~/.git-completion.bash]; then
+if [ -f ~/.git-completion.bash ]; then
    . ~/.git-completion.bash
 fi
 
