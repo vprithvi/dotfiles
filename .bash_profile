@@ -57,3 +57,7 @@ fi
 alias gco='git co'
 alias gci='git ci'
 alias grb='git rb'
+#ssh completeion include
+if [ -f ~/.complete-ssh-hosts.bash ]; then
+   . ~/.complete-ssh-hosts.bash
+fi
