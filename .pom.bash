@@ -1,4 +1,6 @@
 # use AppleScript to communicate with the Pomodoro application on OSX
+# gist url: https://gist.github.com/1175125
+#author markhellewell
 function pom {
     case $1 in
         start)
