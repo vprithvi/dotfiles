@@ -61,3 +61,8 @@ alias grb='git rb'
 if [ -f ~/.complete-ssh-hosts.bash ]; then
    . ~/.complete-ssh-hosts.bash
 fi
+#pomodoros include
+if [ -f ~/.pom.bash ]; then
+   . ~/.pom.bash
+fi
+
